@@ -1,6 +1,6 @@
 # Hi there, I'm Hamed Namoura 👋
 
-### **Senior AI Systems Architect | Mechanical Engineer | MLOps Specialist**
+### **Senior AI Systems Architect | Ph.D. Level Researcher | MLOps Specialist**
 
 I specialize in architecting **autonomous AI systems**, **high-frequency trading engines**, and **industrial digital twins**. My background combines Ph.D.-level engineering physics with modern, scalable software architecture.
 
@@ -15,6 +15,7 @@ I specialize in architecting **autonomous AI systems**, **high-frequency trading
 
 | Project | Architecture & Tech Stack |
 | :--- | :--- |
+| **OmniScale AI (Marketing)** | • **Logic:** **LangGraph** multi-agent orchestrator (Analyst/Strategist/Executor).<br>• **RAG:** **ChromaDB** with semantic filtering for 9+ international markets.<br>• **Flow:** Cron-triggered "Opportunity Discovery" identifying ROAS drops and auto-refreshing Meta/Google/Klaviyo ads.<br>• **Stack:** FastAPI, Groq (Llama 3), Pydantic, Docker. |
 | **AutoSec (Agentic Framework)** | • **Core:** Autonomous Security Agents using **Model Context Protocol (MCP)**.<br>• **Stack:** Docker, K8s, RAG Pipeline, Observability modules.<br>• **Features:** Self-healing pipelines, autonomous threat detection. |
 | **Omni-Lab (R&D Nexus)** | • **Logic:** **LlamaIndex** "Chief Scientist" agent with ReAct (Reason+Act) patterns.<br>• **Data:** **Qdrant** (Vector Search) + **PostgreSQL** (Lab State).<br>• **UI:** React + Tailwind dashboard for real-time agent monitoring. |
 
@@ -48,10 +49,10 @@ I specialize in architecting **autonomous AI systems**, **high-frequency trading
 
 ## 🛠 Technical Arsenal
 
-* **Languages:** Python (Expert), Go (Golang), Dart (Flutter), TypeScript.
-* **AI & ML:** PyTorch, TensorFlow, LlamaIndex, LangGraph, Stable Baselines3, River (Online ML).
-* **Data Engineering:** Apache Spark, Kafka, Airflow, Redis Streams, ScyllaDB, PostgreSQL, Qdrant.
-* **DevOps & Cloud:** Docker, Kubernetes, AWS, GitHub Actions, Terraform, MinIO.
+* **Languages:** Python (Expert), Go (Golang), Dart (Flutter), TypeScript, LaTeX.
+* **AI & ML:** LangGraph, CrewAI, LlamaIndex, PyTorch, TensorFlow, Stable Baselines3, River (Online ML).
+* **Data Engineering:** Apache Spark, Kafka, Airflow, Redis Streams, ScyllaDB, PostgreSQL, Qdrant, ChromaDB, Pinecone.
+* **DevOps & Cloud:** Docker, Kubernetes, AWS, GCP, GitHub Actions, Terraform, MCP.
 
 ---
 
