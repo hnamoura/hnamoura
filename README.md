@@ -1,6 +1,6 @@
 # Hi there, I'm Hamed Namoura 👋
 
-### **Senior AI Systems Architect | Ph.D. Level Researcher | MLOps Specialist**
+### **Senior AI Systems Architect | Full Stack Developer | Ph.D. Level Researcher | MLOps Specialist**
 
 I specialize in architecting **autonomous AI systems**, **high-frequency trading engines**, and **industrial digital twins**. My background combines Ph.D.-level engineering physics with modern, scalable software architecture.
 
@@ -43,15 +43,22 @@ I specialize in architecting **autonomous AI systems**, **high-frequency trading
 | Project | Architecture & Tech Stack |
 | :--- | :--- |
 | **GigaChat (Enterprise Msg)** | • **Scale:** **ScyllaDB** (Message Store) + **Redis** (Pub/Sub) + **Go (Golang)**.<br>• **Features:** E2E encryption, WebRTC calls, 100k+ concurrent connections. |
-| **Antigravity Idle (MLOps)** | • **Pipeline:** Full CI/CD for Data (DVC), Model (MLflow), and Code (GitHub Actions).<br>• **SRE:** Prometheus/Grafana observability, Canary deployments, Drift Detection. |
+| **Kinetic API (formerly Antigravity Idle) (MLOps)** | • **Pipeline:** Full CI/CD for Data (DVC), Model (MLflow), and Code (GitHub Actions).<br>• **SRE:** Prometheus/Grafana observability, Canary deployments, Drift Detection. |
+
+### 🛒 5. Enterprise Retail & Desktop Applications
+*Commercial-grade, event-driven architectures with embedded analytics.*
+
+| Project | Architecture & Tech Stack |
+| :--- | :--- |
+| **Smart SupermarketPOS** | • **Core:** **C# / .NET 8.0** + **WPF** (MVVM) Clean Layered Architecture.<br>• **Pattern:** **Event-Driven** (Domain Events, EventJournal) with automated crash recovery.<br>• **AI & Data:** Local **ML.NET** (Forecasting/Anomalies), **SQLite** + EF Core.<br>• **Integration:** ESC/POS Thermal Printer, Barcode Scanner, QuestPDF, EPPlus. |
 
 ---
 
 ## 🛠 Technical Arsenal
 
-* **Languages:** Python (Expert), Go (Golang), Dart (Flutter), TypeScript, LaTeX.
-* **AI & ML:** LangGraph, CrewAI, LlamaIndex, PyTorch, TensorFlow, Stable Baselines3, River (Online ML).
-* **Data Engineering:** Apache Spark, Kafka, Airflow, Redis Streams, ScyllaDB, PostgreSQL, Qdrant, ChromaDB, Pinecone.
+* **Languages:** Python (Expert), C#, Go (Golang), Dart (Flutter), TypeScript, LaTeX.
+* **AI & ML:** LangGraph, CrewAI, LlamaIndex, PyTorch, TensorFlow, ML.NET, Stable Baselines3, River (Online ML).
+* **Data Engineering:** Apache Spark, Kafka, Airflow, Redis Streams, ScyllaDB, PostgreSQL, Qdrant, ChromaDB, Pinecone, SQLite.
 * **DevOps & Cloud:** Docker, Kubernetes, AWS, GCP, GitHub Actions, Terraform, MCP.
 
 ---
