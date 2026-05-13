@@ -1,8 +1,8 @@
 # Hi there, I'm Hamed Namoura 👋
 
-### **Senior AI Systems Architect | Full Stack Developer | Ph.D. Level Researcher | MLOps Specialist**
+### **Senior AI Systems Architect | Agentic Engineer | Data Scientist | Ph.D. Level (ABD) Researcher**
 
-I specialize in architecting **autonomous AI systems**, **high-frequency trading engines**, and **industrial digital twins**. My background combines Ph.D.-level engineering physics with modern, scalable software architecture.
+I specialize in architecting **autonomous AI systems**, **high-frequency trading engines**, and **industrial digital twins**. My background combines Ph.D.-level engineering physics and optimization with modern, scalable software architecture.
 
 > 🔒 **Note on Privacy:** Most of my commercial work and proprietary algorithms are hosted in **private repositories** to protect Intellectual Property. Below is a detailed breakdown of the architectures and systems I have built.
 
@@ -15,7 +15,8 @@ I specialize in architecting **autonomous AI systems**, **high-frequency trading
 
 | Project | Architecture & Tech Stack |
 | :--- | :--- |
-| **OmniScale AI (Marketing)** | • **Logic:** **LangGraph** multi-agent orchestrator (Analyst/Strategist/Executor).<br>• **RAG:** **ChromaDB** with semantic filtering for 9+ international markets.<br>• **Flow:** Cron-triggered "Opportunity Discovery" identifying ROAS drops and auto-refreshing Meta/Google/Klaviyo ads.<br>• **Stack:** FastAPI, Groq (Llama 3), Pydantic, Docker. |
+| **Demoto Platform** | • **Core:** Document intelligence platform with AI-powered extraction and human-in-the-loop review.<br>• **Scale:** **23+ backend microservices** (Auth, Document, Search, etc.) orchestrated via **Kubernetes**.<br>• **Infrastructure:** **Kafka** event streaming, **PostgreSQL**, **Redis**, and shared **Go SDKs**. |
+| **OmniScale AI (Marketing)** | • **Logic:** **LangGraph** multi-agent orchestrator (Analyst/Strategist/Executor).<br>• **RAG:** **ChromaDB** with semantic filtering for 9+ international markets.<br>• **Stack:** FastAPI, Groq (Llama 3), Pydantic, Docker. |
 | **AutoSec (Agentic Framework)** | • **Core:** Autonomous Security Agents using **Model Context Protocol (MCP)**.<br>• **Stack:** Docker, K8s, RAG Pipeline, Observability modules.<br>• **Features:** Self-healing pipelines, autonomous threat detection. |
 | **Omni-Lab (R&D Nexus)** | • **Logic:** **LlamaIndex** "Chief Scientist" agent with ReAct (Reason+Act) patterns.<br>• **Data:** **Qdrant** (Vector Search) + **PostgreSQL** (Lab State).<br>• **UI:** React + Tailwind dashboard for real-time agent monitoring. |
 
@@ -24,8 +25,10 @@ I specialize in architecting **autonomous AI systems**, **high-frequency trading
 
 | Project | Architecture & Tech Stack |
 | :--- | :--- |
-| **Market-Wide "Sniper" Bot** | • **Strategy:** Scans **200+ Futures pairs** concurrently for "Whale Reversals".<br>• **Logic:** 11-factor confluence (VPVR, Heatmaps, CVD, Delta).<br>• **Ops:** Auto-healing architecture (0-downtime) on Render. |
-| **Deep RL Trading Bot** | • **AI:** **PPO (Proximal Policy Optimization)** trained on 1M+ timesteps.<br>• **Stack:** **FastAPI** backend + **Flutter** dashboard + Binance WebSocket.<br>• **Speed:** <100ms inference latency for real-time signal generation. |
+| **HFT Simulation Engine** | • **Core:** Deterministic, exchange-style simulation written in **Rust**.<br>• **Performance:** Lock-free bounded SPSC queues and fixed-point math for zero-allocation hot paths.<br>• **AI:** Native fixed-point alpha model runtime with offline affine **ONNX-to-native compilation**. |
+| **Crypto Signal System** | • **AI:** Real-time ensemble using **LightGBM + XGBoost** with **Optuna** hyperparameter tuning.<br>• **Stack:** **Next.js 15** frontend, **Python 3.12** microservices, **Redis Streams**, and **TimescaleDB**.<br>• **Features:** Dynamic pair subscription with sub-second WebSocket delivery of 30+ quantitative indicators. |
+| **Market-Wide "Sniper" Bot** | • **Strategy:** Scans **200+ Futures pairs** for "Whale Reversals" using 11-factor confluence (VPVR, Heatmaps, CVD).<br>• **Ops:** Auto-healing architecture (0-downtime) on Render. |
+| **Deep RL Trading Bot** | • **AI:** **PPO (Proximal Policy Optimization)** trained on 1M+ timesteps.<br>• **Stack:** **FastAPI** + **Flutter** dashboard + Binance WebSocket.<br>• **Speed:** <100ms inference latency for real-time signal generation. |
 | **Crypto Arbitrage Engine** | • **Data Eng:** **Apache Kafka** (Ingestion) + **Apache Spark** (Stream Processing).<br>• **Orchestration:** **Apache Airflow** DAGs for triangular arbitrage strategies.<br>• **Storage:** Data Lakehouse architecture using **MinIO**. |
 | **Self-Learning Sentinel** | • **ML:** **River** (Online Machine Learning) for incremental learning (no retraining).<br>• **Features:** Real-time Orderbook analysis, Liquidations, and TPO Profiling. |
 
@@ -43,7 +46,7 @@ I specialize in architecting **autonomous AI systems**, **high-frequency trading
 | Project | Architecture & Tech Stack |
 | :--- | :--- |
 | **GigaChat (Enterprise Msg)** | • **Scale:** **ScyllaDB** (Message Store) + **Redis** (Pub/Sub) + **Go (Golang)**.<br>• **Features:** E2E encryption, WebRTC calls, 100k+ concurrent connections. |
-| **Kinetic API (formerly Antigravity Idle) (MLOps)** | • **Pipeline:** Full CI/CD for Data (DVC), Model (MLflow), and Code (GitHub Actions).<br>• **SRE:** Prometheus/Grafana observability, Canary deployments, Drift Detection. |
+| **Kinetic API (MLOps)** | • **Pipeline:** CI/CD for Data (**DVC**), Model (**MLflow**), and Code (GitHub Actions).<br>• **SRE:** Prometheus/Grafana observability, Canary deployments, and Drift Detection. |
 
 ### 🛒 5. Enterprise Retail & Desktop Applications
 *Commercial-grade, event-driven architectures with embedded analytics.*
@@ -56,10 +59,11 @@ I specialize in architecting **autonomous AI systems**, **high-frequency trading
 
 ## 🛠 Technical Arsenal
 
-* **Languages:** Python (Expert), C#, Go (Golang), Dart (Flutter), TypeScript, LaTeX.
-* **AI & ML:** LangGraph, CrewAI, LlamaIndex, PyTorch, TensorFlow, ML.NET, Stable Baselines3, River (Online ML).
-* **Data Engineering:** Apache Spark, Kafka, Airflow, Redis Streams, ScyllaDB, PostgreSQL, Qdrant, ChromaDB, Pinecone, SQLite.
-* **DevOps & Cloud:** Docker, Kubernetes, AWS, GCP, GitHub Actions, Terraform, MCP.
+* **Languages:** Rust (High-Performance), Go (Scalability), Python (Expert AI/ML), C# (.NET 8), TypeScript, LaTeX.
+* **AI & ML:** LangGraph, LlamaIndex, LightGBM/XGBoost, PyTorch, ML.NET, Optuna, River (Online ML).
+* **Front-end:** Next.js 15, React, React Native, Tailwind CSS, Flutter.
+* **Data Engineering:** Kafka, Redis Streams, TimescaleDB, ScyllaDB, PostgreSQL, Qdrant, ChromaDB, SQLite.
+* **DevOps & Infrastructure:** Kubernetes, Docker, GitHub Actions, Prometheus, Grafana, Terraform.
 
 ---
 
