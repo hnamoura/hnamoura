@@ -15,7 +15,7 @@ I specialize in architecting **autonomous AI systems**, **high-frequency trading
 
 | Project | Architecture & Tech Stack |
 | :--- | :--- |
-| **Demoto Platform** | • **Core:** Document intelligence platform with AI-powered extraction and human-in-the-loop review.<br>• **Scale:** **23+ backend microservices** (Auth, Document, Search, etc.) orchestrated via **Kubernetes**.<br>• **Infrastructure:** **Kafka** event streaming, **PostgreSQL**, **Redis**, and shared **Go SDKs**. |
+| **Demoto Platform (IDP)** | • **Core:** Enterprise Intelligent Document Processing (IDP) with LLM extraction (GPT-4o) and confidence-gated HITL review.<br>• **Orchestration:** **23+ Go microservices** managed via **Temporal** distributed workflows and **Kong API Gateway**.<br>• **Distributed Data:** **PostgreSQL (Citus)** for tenant isolation, **Kafka** event streaming, **ClickHouse** for OLAP billing analytics, and **Qdrant** for hybrid vector search.<br>• **Scale:** Multi-tenant, cloud-native architecture with HMAC-signed webhooks and NATS JetStream notifications. |
 | **OmniScale AI (Marketing)** | • **Logic:** **LangGraph** multi-agent orchestrator (Analyst/Strategist/Executor).<br>• **RAG:** **ChromaDB** with semantic filtering for 9+ international markets.<br>• **Stack:** FastAPI, Groq (Llama 3), Pydantic, Docker. |
 | **AutoSec (Agentic Framework)** | • **Core:** Autonomous Security Agents using **Model Context Protocol (MCP)**.<br>• **Stack:** Docker, K8s, RAG Pipeline, Observability modules.<br>• **Features:** Self-healing pipelines, autonomous threat detection. |
 | **Omni-Lab (R&D Nexus)** | • **Logic:** **LlamaIndex** "Chief Scientist" agent with ReAct (Reason+Act) patterns.<br>• **Data:** **Qdrant** (Vector Search) + **PostgreSQL** (Lab State).<br>• **UI:** React + Tailwind dashboard for real-time agent monitoring. |
@@ -29,7 +29,7 @@ I specialize in architecting **autonomous AI systems**, **high-frequency trading
 | **Crypto Signal System** | • **AI:** Real-time ensemble using **LightGBM + XGBoost** with **Optuna** hyperparameter tuning.<br>• **Stack:** **Next.js 15** frontend, **Python 3.12** microservices, **Redis Streams**, and **TimescaleDB**.<br>• **Features:** Dynamic pair subscription with sub-second WebSocket delivery of 30+ quantitative indicators. |
 | **Market-Wide "Sniper" Bot** | • **Strategy:** Scans **200+ Futures pairs** for "Whale Reversals" using 11-factor confluence (VPVR, Heatmaps, CVD).<br>• **Ops:** Auto-healing architecture (0-downtime) on Render. |
 | **Deep RL Trading Bot** | • **AI:** **PPO (Proximal Policy Optimization)** trained on 1M+ timesteps.<br>• **Stack:** **FastAPI** + **Flutter** dashboard + Binance WebSocket.<br>• **Speed:** <100ms inference latency for real-time signal generation. |
-| **Crypto Arbitrage Engine** | • **Data Eng:** **Apache Kafka** (Ingestion) + **Apache Spark** (Stream Processing).<br>• **Orchestration:** **Apache Airflow** DAGs for triangular arbitrage strategies.<br>• **Storage:** Data Lakehouse architecture using **MinIO**. |
+| **Crypto Arbitrage Engine** | • **Data Eng:** **Apache Kafka** (Ingestion) + **Apache Spark** (Stream Processing).<br>• **Orchestration:** **Apache Airflow** DAGs for triangular arbitrage strategies.<br>• **Storage:** **MinIO** S3-compatible Data Lakehouse. |
 | **Self-Learning Sentinel** | • **ML:** **River** (Online Machine Learning) for incremental learning (no retraining).<br>• **Features:** Real-time Orderbook analysis, Liquidations, and TPO Profiling. |
 
 ### 🏭 3. Industrial Digital Twins & Engineering
@@ -62,8 +62,8 @@ I specialize in architecting **autonomous AI systems**, **high-frequency trading
 * **Languages:** Rust (High-Performance), Go (Scalability), Python (Expert AI/ML), C# (.NET 8), TypeScript, LaTeX.
 * **AI & ML:** LangGraph, LlamaIndex, LightGBM/XGBoost, PyTorch, ML.NET, Optuna, River (Online ML).
 * **Front-end:** Next.js 15, React, React Native, Tailwind CSS, Flutter.
-* **Data Engineering:** Kafka, Redis Streams, TimescaleDB, ScyllaDB, PostgreSQL, Qdrant, ChromaDB, SQLite.
-* **DevOps & Infrastructure:** Kubernetes, Docker, GitHub Actions, Prometheus, Grafana, Terraform.
+* **Data Engineering:** Kafka, Redis Streams, ClickHouse (OLAP), ScyllaDB, PostgreSQL (Citus), Qdrant, ChromaDB, SQLite.
+* **DevOps & Infrastructure:** Kubernetes, Docker, GitHub Actions, Prometheus, Grafana, Terraform, Temporal, Kong Gateway.
 
 ---
 
